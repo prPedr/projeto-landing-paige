@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Escola DNC</title>
+</head>
+<body>
+    <!-- MENU SUSPENSO -->
+    <div id="div-suspenso">
+        <img id="logo-suspenso" src="../img/menu_suspenso/logo.svg" alt="Não foi possivel carregar a imagem">
+        <h1 id="titulo-suspenso">Dê os primeiros passos da<br>sua carreira em Tecnologia</h1>
+        <p id="texto-suspenso">Inscreva-se no curso gratuito de introdução à<br>Tecnologia da DNC School e aprenda os principais<br>fundamentos para construir experiências efetivas.</p>
+    </div>
+
+    <!-- MENU INFORMATVIO -->
+    <div id="div-informativo">
+        <img class="img-informativo" src="../img/menu_informativo/certificado.svg">
+        <p class="texto-informativo">Certificado de conclusão</p>
+        <img class="img-informativo" src="../img/menu_informativo/relogio.svg">
+        <p class="texto-informativo">4 horas de conteúdo</p>
+        <img class="img-informativo" src="../img/menu_informativo/camera.svg">
+        <p class="texto-informativo">Aulas online garavadas</p>
+    </div>
+
+    <!-- MENU VIDEO -->
+    <div id="div-video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ITxGkd9h4n4?si=CPS-CzHovJmNlxCW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <h1 id="titulo-video">Aprenda com especialistas e<br>comece seu primeiro projeto</h1>
+            <p id="texto1-video">Conheça o processo de desenvolvimento e entenda como utilizar<br>os principais métodos e ferramentas da área para resolver<br>problemas complexos.</p>
+            <p id="texto2-video">Conquiste seu certificado e desenvolva um projeto prático para<br>aplicar seus conhecimentos.</p>
+        </div>
+    </div>
+
+    <!-- MENU CARDS -->
+    <div id="div-cards">
+        <h1 id="titulo-cards">Mais de 500 alunos já iniciaram seus estudos</h1>
+        <div id="alinhamento-cards">
+            <img id="esquerda" onclick="paraEsquerda()" class="setas" src="../img/menu_cards/seta_esqueda.svg">
+            <img id="leonardo" class="cards" src="../img/menu_cards/leonardo.svg">
+            <img id="samantha" class="cards" src="../img/menu_cards/samantha.svg">
+            <img id="bruna" class="cards" src="../img/menu_cards/bruna.svg">
+            <img id="direita" onclick="paraDireita()" class="setas" src="../img/menu_cards/seta_direita.svg">
+        </div>
+    </div>
+
+    <!-- MENU FORMULARIO -->
+    <div id="div-formulario">
+        <h1 id="titulo-formulario">Comece agora mesmo e dê o proximo passo da sua carreira</h1>
+        <div id="alinhamento-formulario">
+            <form id="formulario">
+                <input type="text" placeholder="Nome"><br><br>
+                <input type="email" placeholder="E-mail"><br><br>
+                <input type="tel" placeholder="Telefone"><br><br>
+                <button>Acesse a ementa grátis</button>
+            </form>
+        </div>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+</html>
